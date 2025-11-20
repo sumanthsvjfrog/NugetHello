@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>HelloNuget</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>You</Authors>
+    <Company>YourCompany</Company>
+    <Description>A sample Hello World NuGet package</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- High-risk known vulnerable version -->
+    <PackageReference Include="Newtonsoft.Json" Version="9.0.1" />
+
+    <!-- Known vulnerable version of Log4Net -->
+    <PackageReference Include="log4net" Version="2.0.8" />
+
+    <!-- Old vulnerable version of SharpZipLib -->
+    <PackageReference Include="SharpZipLib" Version="0.86.0" />
+
+    <!-- Example vulnerable SignalR version -->
+    <PackageReference Include="Microsoft.AspNet.SignalR.Core" Version="2.2.0" />
+  </ItemGroup>
+
+</Project>
+
