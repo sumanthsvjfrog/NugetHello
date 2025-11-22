@@ -3,8 +3,8 @@
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <PackageId>HelloNuget"
-    <Version>1.0.0"
+    <PackageId>HelloNuget</PackageId>
+    <Version>1.0.0</Version>
     <Authors>You</Authors>
   </PropertyGroup>
 
@@ -16,4 +16,3 @@
   </ItemGroup>
 
 </Project>
-
